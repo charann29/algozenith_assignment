@@ -1,16 +1,48 @@
 ---
-
+import '@fontsource-variable/rubik';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <main>
+      <div>
+		<h1>Be better at DSA & CP</h1>
+		<p>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		  tempor incididunt ut labore et dolore magna aliqua
+		</p>
+		<ul>
+		  <li>Lorem ipsum dolor sit amet</li>
+		  <li>Lorem ipsum dolor sit amet</li>
+		  <li>Lorem ipsum dolor sit amet</li>
+		  <li>Lorem ipsum dolor sit amet</li>
+		</ul>
+		<button>Join now</button>
+		<button>View curriculum</button>
+	  </div>
+	  <img src="/hero-img.png" alt="logo">
+    </main>
+  </body>
 </html>
+
+<style lang="postcss">
+  main {
+	background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+	color: white;
+	text-align: center;
+  }
+
+  h1{
+		font-family: 'Rubik Variable', sans-serif;
+		font-size: 2rem;
+		font-weight: 800;
+		line-height: 1;
+  }
+</style>
